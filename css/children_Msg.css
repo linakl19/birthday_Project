@@ -1,0 +1,71 @@
+.children_Msg{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgb(249, 208, 157) 0%, rgba(255,255,255,1) 100%);
+}
+.children_Msg h2{
+    font-family: Courgette, sans-serif;
+    font-size: 1.25rem;
+}
+
+.children_Msg-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+.children_Msg-div div{
+    margin: 0 2.5rem;
+    padding: 2rem;
+    width: 20%; /* Set the width of the div */
+    height:75%;
+    box-sizing: border-box;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 500;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    transition: 2s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.children_Msg-div div:hover{
+    color: rgba(255, 255, 255, 1);
+    /* border: 1px; */
+    transform: scale(1.01);
+}
+
+.bob_div {
+    background-image: url('../img/Bob.jpeg'); /* Specify the path to your image */
+    color: rgba(255, 255, 255, 0);
+    transition: 2s;
+
+}
+.bob_div:hover{
+    background-image: linear-gradient(0deg, rgba(1,0,6,0.8) 0%, rgba(255,255,255,0.6) 100%), url('../img/Bob.jpeg');
+}
+
+.sora_div {
+    background-image: url('../img/Sora.jpeg'); 
+}
+.sora_div:hover{
+    background-image: linear-gradient(0deg, rgba(1,0,6,0.8) 0%, rgba(255,255,255,0.6) 100%), url('../img/Sora.jpeg');
+}
+.fenix_div {
+    background-image: url('../img/Fenix.jpeg'); /* Specify the path to your image */
+}
+.fenix_div:hover{
+    background-image: linear-gradient(0deg, rgba(1,0,6,0.8) 0%, rgba(255,255,255,0.6) 100%),  url('../img/Fenix.jpeg');
+}

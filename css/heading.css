@@ -1,0 +1,24 @@
+.heading{
+    background-image: radial-gradient(circle, rgba(160,139,163,0.3) 0%, rgba(25,30,36,0.3) 100%), url(../img/HappyBirthdayBackground.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading h1{
+    font-size: 6rem;
+    color: #FFF;
+    font-family: Courgette, sans-serif;
+    text-shadow: rgb(232, 169, 193) 1px 0 7px;
+    line-height: normal;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}

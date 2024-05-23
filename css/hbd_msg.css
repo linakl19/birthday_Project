@@ -1,0 +1,37 @@
+.hbd_Msg{
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 0 5rem;
+   box-sizing: border-box;
+}
+.hbd_Msg img{
+    width: 30%;
+    height: 30%;
+    padding: 3rem 0;
+    object-fit: contain;
+}
+.hbd_Msg_Img1{
+    align-self: end;
+    margin-bottom: 5rem;
+    transform: rotate(-10deg);
+}
+.hbd_Msg_Img2{
+    transform: rotate(170deg);
+    margin-top: 4rem;
+}
+
+.hbd_Msg p{
+    align-self: center;
+    width: 40%;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.hbd_Msg p span{
+    display: block;
+    padding-top: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px pink;
+}
